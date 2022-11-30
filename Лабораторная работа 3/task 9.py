@@ -5,8 +5,8 @@ increase = 0.03  # рост цен
 summa = spend
 money_capital = 0  # количество денег, чтобы прожить 10 месяцев
 
-for i in range(2, months + 1):
+for _ in range(2, months + 1):
     spend = spend * 1.03
     summa += spend
 
-print(round((summa - salary * months) // 1))
+print(round((summa - salary * months) // 1))  # получаем подушку безопасности, которую нужно иметь
