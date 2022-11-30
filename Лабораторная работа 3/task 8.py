@@ -14,4 +14,4 @@ while True:
     money_capital -= delta
     spend *= 1 + increase
 
-print(month)  # 8
+print(month)  # количество месяцев прожитое без долгов
