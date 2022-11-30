@@ -12,4 +12,3 @@ for i, current_number in enumerate(list_numbers):  # перебираем пар
 list_numbers[max_index], list_numbers[len(list_numbers)-1] = list_numbers[len(list_numbers)-1], list_numbers[max_index]
 
 print(list_numbers)  # получаем измененный список
-
