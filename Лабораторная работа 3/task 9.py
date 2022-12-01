@@ -10,3 +10,4 @@ for _ in range(2, months + 1):
     summa += spend
 
 print(round((summa - salary * months) // 1))  # получаем подушку безопасности, которую нужно иметь
+
